@@ -1,0 +1,142 @@
+.headerbar-styling{
+  display: flex;
+  flex-direction: row;
+  height:  80px;
+  background-color: white;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 100;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.hamburger-menu-img{
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.youtube-img{
+  width: 100px;
+  margin-right: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.left-styling{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+}
+
+.middle-styling{
+  display: flex;
+  flex-direction: row;
+  flex: 1 ;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-styling img{
+  width: 28px;
+  cursor: pointer; 
+}
+
+.search-button{
+  display: flex;
+  background-color: rgb(242, 242, 242);
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  height: 36px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  padding-left: -1;
+  position: relative;
+}
+
+
+.voice-search-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin-right: 20px;
+
+}
+
+.tooltip{
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(49, 49, 49);
+  bottom: 10px;
+  right: 5px;
+  padding: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  right: 0;
+  bottom: -48px;
+}
+
+
+.right-styling{
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+  min-width: 280px;
+}
+
+.right-styling img{
+  width: 30px;
+  cursor: pointer;
+}
+
+.search-bar{
+  flex: 1;
+  max-width: 500px;
+  min-width: 30px;
+  width: 500px;
+  margin-left: 5px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding: 10px 15px 10px 15px;
+
+
+}
+
+.search-bar::placeholder{
+  font-size: 16px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-button:hover .tooltip,
+.voice-search-icon:hover .tooltip,
+.right-styling-img .tooltip{
+  opacity: 0.85;
+}
+
+
+

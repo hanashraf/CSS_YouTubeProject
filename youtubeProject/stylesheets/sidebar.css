@@ -1,0 +1,33 @@
+.sidebar-styling{
+  width:  85px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  z-index: 110;
+}
+
+.sidebar-styling img{
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.text-styling{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.outerline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 85px;
+}
+
+.outerline:hover{
+  background-color: rgb(232, 232, 232);
+}
+
